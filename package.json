@@ -12,6 +12,10 @@
     "build": "npm run dist:dev && npm run dist:prod",
     "start": "npm run dev"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matisha001/aview.git"
+  },
   "keywords": [
     "aview",
     "vue",
