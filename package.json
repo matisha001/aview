@@ -1,6 +1,6 @@
 {
-  "name": "aview",
-  "version": "0.0.3",
+  "name": "a-view",
+  "version": "0.0.1",
   "description": "A high quality  UI components Library with Vue.js by matisha001",
   "author": "caoyankui <matisha001@163.com>",
   "private": false,
@@ -17,7 +17,7 @@
     "url": "https://github.com/matisha001/aview.git"
   },
   "keywords": [
-    "aview",
+    "a-view",
     "vue",
     "components",
     "ui",
