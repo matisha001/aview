@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'atable',
+  name: 'htable',
 }
 
 </script>

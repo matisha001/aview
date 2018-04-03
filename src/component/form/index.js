@@ -5,13 +5,13 @@
  * @Last Modified time: 2018-04-03 17:13:02
  */
 
-import aform from './form.vue';
+import hform from './form.vue';
 
 /*
-import  { aform } from 'aview';
-使用Vue.use(aform)
+import  { hform } from 'aview';
+使用Vue.use(hform)
 */
-aform.install = function (Vue) {
-    Vue.component(aform.name, aform);
+hform.install = function (Vue) {
+    Vue.component(hform.name, hform);
 };
-export default aform;
+export default hform;

@@ -23,8 +23,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'aview.min.js',
-        library: 'aview',
+        filename: 'hview.min.js',
+        library: 'hview',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

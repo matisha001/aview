@@ -5,13 +5,13 @@
  * @Last Modified time: 2018-04-03 17:12:40
  */
 
-import atable from './table.vue';
+import htable from './table.vue';
 
 /*
-import  { atable } from 'aview';
-使用Vue.use(atable)
+import  { htable } from 'aview';
+使用Vue.use(htable)
 */
-atable.install = function (Vue) {
-    Vue.component(atable.name, atable);
+htable.install = function (Vue) {
+    Vue.component(htable.name, htable);
 };
-export default atable;
+export default htable;

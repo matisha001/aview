@@ -1,10 +1,10 @@
 {
-  "name": "a-view",
+  "name": "@matisha001/hview",
   "version": "0.0.1",
   "description": "A high quality  UI components Library with Vue.js by matisha001",
   "author": "caoyankui <matisha001@163.com>",
   "private": false,
-  "main": "dist/main.js",
+  "main": "dist/hview.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matisha001/aview.git"
+    "url": "https://github.com/matisha001/hview.git"
   },
   "keywords": [
-    "a-view",
+    "hview",
     "vue",
     "components",
     "ui",
