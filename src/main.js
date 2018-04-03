@@ -1,8 +1,11 @@
 import atable from './component/table';
 import aform from './component/form';
+import abutton from './component/button';
+// import iview from './iview';
 const components = {
   atable,
-  aform
+  aform,
+  abutton
 }
 
 const aview = {
@@ -11,6 +14,7 @@ const aview = {
 
 const install = function (Vue, opts = {}) {
   if (install.installed) return;
+
   Object.keys(aview).forEach(key => {
     Vue.component(key, aview[key]);
   });
