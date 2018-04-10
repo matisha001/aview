@@ -1,6 +1,6 @@
 <template>
     <div>
-      <aform></aform>
+      <aform :items="items"></aform>
       <atable></atable>   
     </div>
 </template>
@@ -9,6 +9,14 @@
 
 export default {
   name: 'App',
+    data () {
+    return {
+      items:[
+        {name:"test",class:"t"},
+        {name:"t1",class:"t2"}
+      ]
+    };
+  },
 }
 </script>
 

@@ -1,20 +1,23 @@
 import atable from './component/table';
 import aform from './component/form';
-import abutton from './component/button';
-// import iview from './iview';
+import { Button, Table } from 'iview';
+// import abutton from './component/button';
+// import iviews from './iviews';
+
+console.log(atable);
 const components = {
   atable,
   aform,
-  abutton
+  // abutton,
+  // ...iview
 }
-
+console.log(components);
 const aview = {
   ...components
 }
 
 const install = function (Vue, opts = {}) {
   if (install.installed) return;
-
   Object.keys(aview).forEach(key => {
     Vue.component(key, aview[key]);
   });
