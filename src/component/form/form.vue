@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'hform'
+  name: 'aform'
 }
 
 </script>

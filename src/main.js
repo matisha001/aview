@@ -1,18 +1,18 @@
-import htable from './component/table';
-import hform from './component/form';
+import atable from './component/table';
+import aform from './component/form';
 const components = {
-  htable,
-  hform
+  atable,
+  aform
 }
 
-const hview = {
+const aview = {
   ...components
 }
 
 const install = function (Vue, opts = {}) {
   if (install.installed) return;
-  Object.keys(hview).forEach(key => {
-    Vue.component(key, hview[key]);
+  Object.keys(aview).forEach(key => {
+    Vue.component(key, aview[key]);
   });
 };
 

@@ -1,14 +1,14 @@
-# hview
+# aview
 
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/hview)
-[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/hview)
-[![hview](https://img.shields.io/badge/hview-0.0.3-brightgreen.svg)](https://www.npmjs.com/package/hview)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/aview)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/aview)
+[![aview](https://img.shields.io/badge/aview-0.0.3-brightgreen.svg)](https://www.npmjs.com/package/aview)
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm i hview --save
+npm i aview --save
 
 # serve with hot reload at localhost:8080
 npm run dev / npm start
@@ -25,16 +25,16 @@ npm run dist:prod
 ``` bash
 # global imports
 import Vue from 'vue'
-import hview from 'hview'
-Vue.use(hview)
+import aview from 'aview'
+Vue.use(aview)
 
 # needs imports way1
 import Vue from 'vue'
-import { htable, hform } from 'hview'
-Vue.use(htable);
+import { atable, aform } from 'aview'
+Vue.use(atable);
 
 # needs imports way2
 import Vue from 'vue'
-import { htable, hform } from 'hview'
-Vue.component('htable', htable);
+import { atable, aform } from 'aview'
+Vue.component('atable', atable);
 ```

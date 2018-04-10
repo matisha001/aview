@@ -1,7 +1,7 @@
 <template>
     <div>
-      <hform></hform>
-      <htable></htable>   
+      <aform></aform>
+      <atable></atable>   
     </div>
 </template>
 

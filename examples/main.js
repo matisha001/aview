@@ -6,13 +6,13 @@
  */
 /*
   引用方式
-    1、全局引用  Vue.use(hview);
+    1、全局引用  Vue.use(aview);
     按需引入
     babel-plugin-component
-    2、import { htable, hform } from 'hview';
-      Vue.component('htable', htable);
-    3、import { htable, hform } from 'hview';
-      Vue.use(htable)
+    2、import { atable, aform } from 'aview';
+      Vue.component('atable', atable);
+    3、import { atable, aform } from 'aview';
+      Vue.use(atable)
  */
 
 
@@ -21,17 +21,17 @@ import Vue from 'vue'
 
 import App from './App'
 /*
-import hview from '../src/main';
-Vue.use(hview);
+import aview from '../src/main';
+Vue.use(aview);
 */
 
-import { htable, hform } from '../src/main';
+import { atable, aform } from '../src/main';
 /*
-  Vue.use(htable);
-  Vue.use(hform);
+  Vue.use(atable);
+  Vue.use(aform);
 */
-Vue.component('htable', htable);
-Vue.component('hform', hform);
+Vue.component('atable', atable);
+Vue.component('aform', aform);
 
 Vue.config.productionTip = false
 
